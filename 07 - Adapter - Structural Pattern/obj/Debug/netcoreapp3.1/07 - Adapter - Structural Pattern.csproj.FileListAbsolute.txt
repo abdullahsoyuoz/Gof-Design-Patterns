@@ -1,0 +1,12 @@
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\07 - Adapter - Structural Pattern\bin\Debug\netcoreapp3.1\07 - Adapter - Structural Pattern.exe
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\07 - Adapter - Structural Pattern\bin\Debug\netcoreapp3.1\07 - Adapter - Structural Pattern.deps.json
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\07 - Adapter - Structural Pattern\bin\Debug\netcoreapp3.1\07 - Adapter - Structural Pattern.runtimeconfig.json
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\07 - Adapter - Structural Pattern\bin\Debug\netcoreapp3.1\07 - Adapter - Structural Pattern.runtimeconfig.dev.json
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\07 - Adapter - Structural Pattern\bin\Debug\netcoreapp3.1\07 - Adapter - Structural Pattern.dll
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\07 - Adapter - Structural Pattern\bin\Debug\netcoreapp3.1\07 - Adapter - Structural Pattern.pdb
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\07 - Adapter - Structural Pattern\obj\Debug\netcoreapp3.1\07 - Adapter - Structural Pattern.AssemblyInfoInputs.cache
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\07 - Adapter - Structural Pattern\obj\Debug\netcoreapp3.1\07 - Adapter - Structural Pattern.AssemblyInfo.cs
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\07 - Adapter - Structural Pattern\obj\Debug\netcoreapp3.1\07 - Adapter - Structural Pattern.csproj.CoreCompileInputs.cache
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\07 - Adapter - Structural Pattern\obj\Debug\netcoreapp3.1\07 - Adapter - Structural Pattern.dll
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\07 - Adapter - Structural Pattern\obj\Debug\netcoreapp3.1\07 - Adapter - Structural Pattern.pdb
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\07 - Adapter - Structural Pattern\obj\Debug\netcoreapp3.1\07 - Adapter - Structural Pattern.genruntimeconfig.cache

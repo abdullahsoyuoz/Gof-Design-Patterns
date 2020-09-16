@@ -1,0 +1,13 @@
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\01 - Dependency Injection\bin\Debug\netcoreapp3.1\01 - Dependency Injection.exe
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\01 - Dependency Injection\bin\Debug\netcoreapp3.1\01 - Dependency Injection.deps.json
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\01 - Dependency Injection\bin\Debug\netcoreapp3.1\01 - Dependency Injection.runtimeconfig.json
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\01 - Dependency Injection\bin\Debug\netcoreapp3.1\01 - Dependency Injection.runtimeconfig.dev.json
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\01 - Dependency Injection\bin\Debug\netcoreapp3.1\01 - Dependency Injection.dll
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\01 - Dependency Injection\bin\Debug\netcoreapp3.1\01 - Dependency Injection.pdb
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\01 - Dependency Injection\obj\Debug\netcoreapp3.1\01 - Dependency Injection.csprojAssemblyReference.cache
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\01 - Dependency Injection\obj\Debug\netcoreapp3.1\01 - Dependency Injection.AssemblyInfoInputs.cache
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\01 - Dependency Injection\obj\Debug\netcoreapp3.1\01 - Dependency Injection.AssemblyInfo.cs
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\01 - Dependency Injection\obj\Debug\netcoreapp3.1\01 - Dependency Injection.csproj.CoreCompileInputs.cache
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\01 - Dependency Injection\obj\Debug\netcoreapp3.1\01 - Dependency Injection.dll
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\01 - Dependency Injection\obj\Debug\netcoreapp3.1\01 - Dependency Injection.pdb
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\01 - Dependency Injection\obj\Debug\netcoreapp3.1\01 - Dependency Injection.genruntimeconfig.cache

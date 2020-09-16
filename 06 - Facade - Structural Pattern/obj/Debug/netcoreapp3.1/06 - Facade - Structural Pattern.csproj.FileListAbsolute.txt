@@ -1,0 +1,13 @@
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\06 - Facade - Structural Pattern\bin\Debug\netcoreapp3.1\06 - Facade - Structural Pattern.exe
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\06 - Facade - Structural Pattern\bin\Debug\netcoreapp3.1\06 - Facade - Structural Pattern.deps.json
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\06 - Facade - Structural Pattern\bin\Debug\netcoreapp3.1\06 - Facade - Structural Pattern.runtimeconfig.json
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\06 - Facade - Structural Pattern\bin\Debug\netcoreapp3.1\06 - Facade - Structural Pattern.runtimeconfig.dev.json
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\06 - Facade - Structural Pattern\bin\Debug\netcoreapp3.1\06 - Facade - Structural Pattern.dll
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\06 - Facade - Structural Pattern\bin\Debug\netcoreapp3.1\06 - Facade - Structural Pattern.pdb
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\06 - Facade - Structural Pattern\obj\Debug\netcoreapp3.1\06 - Facade - Structural Pattern.csprojAssemblyReference.cache
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\06 - Facade - Structural Pattern\obj\Debug\netcoreapp3.1\06 - Facade - Structural Pattern.AssemblyInfoInputs.cache
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\06 - Facade - Structural Pattern\obj\Debug\netcoreapp3.1\06 - Facade - Structural Pattern.AssemblyInfo.cs
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\06 - Facade - Structural Pattern\obj\Debug\netcoreapp3.1\06 - Facade - Structural Pattern.csproj.CoreCompileInputs.cache
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\06 - Facade - Structural Pattern\obj\Debug\netcoreapp3.1\06 - Facade - Structural Pattern.dll
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\06 - Facade - Structural Pattern\obj\Debug\netcoreapp3.1\06 - Facade - Structural Pattern.pdb
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\06 - Facade - Structural Pattern\obj\Debug\netcoreapp3.1\06 - Facade - Structural Pattern.genruntimeconfig.cache

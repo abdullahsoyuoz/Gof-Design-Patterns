@@ -1,0 +1,13 @@
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\02 - Singleton - Creational Pattern\bin\Debug\netcoreapp3.1\02 - Singleton - Creational Pattern.exe
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\02 - Singleton - Creational Pattern\bin\Debug\netcoreapp3.1\02 - Singleton - Creational Pattern.deps.json
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\02 - Singleton - Creational Pattern\bin\Debug\netcoreapp3.1\02 - Singleton - Creational Pattern.runtimeconfig.json
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\02 - Singleton - Creational Pattern\bin\Debug\netcoreapp3.1\02 - Singleton - Creational Pattern.runtimeconfig.dev.json
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\02 - Singleton - Creational Pattern\bin\Debug\netcoreapp3.1\02 - Singleton - Creational Pattern.dll
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\02 - Singleton - Creational Pattern\bin\Debug\netcoreapp3.1\02 - Singleton - Creational Pattern.pdb
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\02 - Singleton - Creational Pattern\obj\Debug\netcoreapp3.1\02 - Singleton - Creational Pattern.csprojAssemblyReference.cache
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\02 - Singleton - Creational Pattern\obj\Debug\netcoreapp3.1\02 - Singleton - Creational Pattern.AssemblyInfoInputs.cache
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\02 - Singleton - Creational Pattern\obj\Debug\netcoreapp3.1\02 - Singleton - Creational Pattern.AssemblyInfo.cs
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\02 - Singleton - Creational Pattern\obj\Debug\netcoreapp3.1\02 - Singleton - Creational Pattern.csproj.CoreCompileInputs.cache
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\02 - Singleton - Creational Pattern\obj\Debug\netcoreapp3.1\02 - Singleton - Creational Pattern.dll
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\02 - Singleton - Creational Pattern\obj\Debug\netcoreapp3.1\02 - Singleton - Creational Pattern.pdb
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\02 - Singleton - Creational Pattern\obj\Debug\netcoreapp3.1\02 - Singleton - Creational Pattern.genruntimeconfig.cache

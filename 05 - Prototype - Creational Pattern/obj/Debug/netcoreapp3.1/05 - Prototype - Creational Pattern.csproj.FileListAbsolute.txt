@@ -1,0 +1,12 @@
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\05 - Prototype - Creational Pattern\bin\Debug\netcoreapp3.1\05 - Prototype - Creational Pattern.exe
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\05 - Prototype - Creational Pattern\bin\Debug\netcoreapp3.1\05 - Prototype - Creational Pattern.deps.json
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\05 - Prototype - Creational Pattern\bin\Debug\netcoreapp3.1\05 - Prototype - Creational Pattern.runtimeconfig.json
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\05 - Prototype - Creational Pattern\bin\Debug\netcoreapp3.1\05 - Prototype - Creational Pattern.runtimeconfig.dev.json
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\05 - Prototype - Creational Pattern\bin\Debug\netcoreapp3.1\05 - Prototype - Creational Pattern.dll
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\05 - Prototype - Creational Pattern\bin\Debug\netcoreapp3.1\05 - Prototype - Creational Pattern.pdb
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\05 - Prototype - Creational Pattern\obj\Debug\netcoreapp3.1\05 - Prototype - Creational Pattern.AssemblyInfoInputs.cache
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\05 - Prototype - Creational Pattern\obj\Debug\netcoreapp3.1\05 - Prototype - Creational Pattern.AssemblyInfo.cs
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\05 - Prototype - Creational Pattern\obj\Debug\netcoreapp3.1\05 - Prototype - Creational Pattern.csproj.CoreCompileInputs.cache
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\05 - Prototype - Creational Pattern\obj\Debug\netcoreapp3.1\05 - Prototype - Creational Pattern.dll
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\05 - Prototype - Creational Pattern\obj\Debug\netcoreapp3.1\05 - Prototype - Creational Pattern.pdb
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\05 - Prototype - Creational Pattern\obj\Debug\netcoreapp3.1\05 - Prototype - Creational Pattern.genruntimeconfig.cache

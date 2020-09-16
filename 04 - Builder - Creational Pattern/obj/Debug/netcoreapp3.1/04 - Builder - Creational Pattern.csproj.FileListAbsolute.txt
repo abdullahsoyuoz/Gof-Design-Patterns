@@ -1,0 +1,13 @@
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\04 - Builder - Creational Pattern\obj\Debug\netcoreapp3.1\04 - Builder - Creational Pattern.csprojAssemblyReference.cache
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\04 - Builder - Creational Pattern\obj\Debug\netcoreapp3.1\04 - Builder - Creational Pattern.AssemblyInfoInputs.cache
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\04 - Builder - Creational Pattern\obj\Debug\netcoreapp3.1\04 - Builder - Creational Pattern.AssemblyInfo.cs
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\04 - Builder - Creational Pattern\obj\Debug\netcoreapp3.1\04 - Builder - Creational Pattern.csproj.CoreCompileInputs.cache
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\04 - Builder - Creational Pattern\bin\Debug\netcoreapp3.1\04 - Builder - Creational Pattern.exe
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\04 - Builder - Creational Pattern\bin\Debug\netcoreapp3.1\04 - Builder - Creational Pattern.deps.json
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\04 - Builder - Creational Pattern\bin\Debug\netcoreapp3.1\04 - Builder - Creational Pattern.runtimeconfig.json
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\04 - Builder - Creational Pattern\bin\Debug\netcoreapp3.1\04 - Builder - Creational Pattern.runtimeconfig.dev.json
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\04 - Builder - Creational Pattern\bin\Debug\netcoreapp3.1\04 - Builder - Creational Pattern.dll
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\04 - Builder - Creational Pattern\bin\Debug\netcoreapp3.1\04 - Builder - Creational Pattern.pdb
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\04 - Builder - Creational Pattern\obj\Debug\netcoreapp3.1\04 - Builder - Creational Pattern.dll
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\04 - Builder - Creational Pattern\obj\Debug\netcoreapp3.1\04 - Builder - Creational Pattern.pdb
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\04 - Builder - Creational Pattern\obj\Debug\netcoreapp3.1\04 - Builder - Creational Pattern.genruntimeconfig.cache
