@@ -1,0 +1,13 @@
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\09 - Proxy - Structural Pattern\bin\Debug\netcoreapp3.1\09 - Proxy - Structural Pattern.exe
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\09 - Proxy - Structural Pattern\bin\Debug\netcoreapp3.1\09 - Proxy - Structural Pattern.deps.json
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\09 - Proxy - Structural Pattern\bin\Debug\netcoreapp3.1\09 - Proxy - Structural Pattern.runtimeconfig.json
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\09 - Proxy - Structural Pattern\bin\Debug\netcoreapp3.1\09 - Proxy - Structural Pattern.runtimeconfig.dev.json
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\09 - Proxy - Structural Pattern\bin\Debug\netcoreapp3.1\09 - Proxy - Structural Pattern.dll
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\09 - Proxy - Structural Pattern\bin\Debug\netcoreapp3.1\09 - Proxy - Structural Pattern.pdb
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\09 - Proxy - Structural Pattern\obj\Debug\netcoreapp3.1\09 - Proxy - Structural Pattern.csprojAssemblyReference.cache
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\09 - Proxy - Structural Pattern\obj\Debug\netcoreapp3.1\09 - Proxy - Structural Pattern.AssemblyInfoInputs.cache
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\09 - Proxy - Structural Pattern\obj\Debug\netcoreapp3.1\09 - Proxy - Structural Pattern.AssemblyInfo.cs
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\09 - Proxy - Structural Pattern\obj\Debug\netcoreapp3.1\09 - Proxy - Structural Pattern.csproj.CoreCompileInputs.cache
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\09 - Proxy - Structural Pattern\obj\Debug\netcoreapp3.1\09 - Proxy - Structural Pattern.dll
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\09 - Proxy - Structural Pattern\obj\Debug\netcoreapp3.1\09 - Proxy - Structural Pattern.pdb
+D:\Döküman\Programlama\Design Patterns\with C#\Design-Patterns\Design Patterns\09 - Proxy - Structural Pattern\obj\Debug\netcoreapp3.1\09 - Proxy - Structural Pattern.genruntimeconfig.cache
