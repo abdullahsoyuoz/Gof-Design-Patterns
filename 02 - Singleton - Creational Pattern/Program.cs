@@ -2,7 +2,7 @@
 
 namespace _02___Singleton___Creational_Pattern
 {
-    /* Turkish:
+    /* Turkish: Merhaba
      * Oluşturucu Desendir.
      * Bu pattern, Runtime sırasında herhangi bir nesnenin tek bir kez üretildiğini temin eder.
      */

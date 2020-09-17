@@ -9,4 +9,6 @@ namespace _10___Decorator___Structural_Pattern
             Console.WriteLine("Hello World!");
         }
     }
+
+
 }

@@ -12,18 +12,18 @@ namespace _01___Dependency_Injection
     {
         static void Main(string[] args)
         {
-            SampleProvider _sp = new SampleProvider( new SampleA());
+            SampleProvider _sp = new SampleProvider( new SampleA());    // SampleB gibi farklı bir sınıfı parametre girebiliriz.
         }
     }
 
     class SampleProvider    //Dependency Injection Model
     {
         private ISamplePrototype _sample;
-        public SampleProvider(ISamplePrototype _sample)
+        public SampleProvider(ISamplePrototype _sample) // kurucu fonksiyona SampleB gibi benzer farklı sınıf gönderebilmek için temel alan interface'i tanımlarız
         {
             this._sample = _sample;
         }
-        public void ProcessA() //etc
+        public void Process() //etc
         {
             //todo
         }
@@ -31,18 +31,30 @@ namespace _01___Dependency_Injection
 
     interface ISamplePrototype
     {
-        public void ProcessB();
+        public void Process();
     }
 
     class SampleA : ISamplePrototype
     {
         public SampleA()
         {
-            ProcessB();
+            Process();
         }
-        public void ProcessB()
+        public void Process()
         {
-            Console.WriteLine("SampleA.ProcessB() is running..");
+            Console.WriteLine("SampleA.Process() is running..");
+        }
+    }
+    
+    class SampleB : ISamplePrototype
+    {
+        public SampleB()
+        {
+            Process();
+        }
+        public void Process()
+        {
+            Console.WriteLine("SampleB.Process() is running..");
         }
     }
 
