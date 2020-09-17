@@ -3,23 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design Patterns", "Design Patterns\Design Patterns.csproj", "{3D3AEBC9-0FC7-44B9-A26C-508E1E7320AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00 - Design Patterns", "Design Patterns\00 - Design Patterns.csproj", "{3D3AEBC9-0FC7-44B9-A26C-508E1E7320AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 - Dependency Injection", "01 - Dependency Injection\01 - Dependency Injection.csproj", "{519FD9D0-7C21-4A0E-86AD-750E5ADCE574}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01 - Dependency Injection", "01 - Dependency Injection\01 - Dependency Injection.csproj", "{519FD9D0-7C21-4A0E-86AD-750E5ADCE574}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 - Singleton - Creational Pattern", "02 - Singleton - Creational Pattern\02 - Singleton - Creational Pattern.csproj", "{62245510-804E-4B1F-8E68-47C78A65FC39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02 - Singleton - Creational Pattern", "02 - Singleton - Creational Pattern\02 - Singleton - Creational Pattern.csproj", "{62245510-804E-4B1F-8E68-47C78A65FC39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 - Factory - Creational Pattern", "03 - Factory - Creational Pattern\03 - Factory - Creational Pattern.csproj", "{32843C1C-EAEE-470A-84D4-787ECAC3FC66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03 - Factory - Creational Pattern", "03 - Factory - Creational Pattern\03 - Factory - Creational Pattern.csproj", "{32843C1C-EAEE-470A-84D4-787ECAC3FC66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 - Builder - Creational Pattern", "04 - Builder - Creational Pattern\04 - Builder - Creational Pattern.csproj", "{D2E6E8CE-6588-46BB-AFA2-8D4F3F5B6AB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04 - Builder - Creational Pattern", "04 - Builder - Creational Pattern\04 - Builder - Creational Pattern.csproj", "{D2E6E8CE-6588-46BB-AFA2-8D4F3F5B6AB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 - Prototype - Creational Pattern", "05 - Prototype - Creational Pattern\05 - Prototype - Creational Pattern.csproj", "{69118F49-05DE-4A32-874C-73B58CCAEAE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05 - Prototype - Creational Pattern", "05 - Prototype - Creational Pattern\05 - Prototype - Creational Pattern.csproj", "{69118F49-05DE-4A32-874C-73B58CCAEAE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 - Facade - Structural Pattern", "06 - Facade - Structural Pattern\06 - Facade - Structural Pattern.csproj", "{3B17EDE9-F962-4829-9FAD-DCC7F7029673}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06 - Facade - Structural Pattern", "06 - Facade - Structural Pattern\06 - Facade - Structural Pattern.csproj", "{3B17EDE9-F962-4829-9FAD-DCC7F7029673}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 - Adapter - Structural Pattern", "07 - Adapter - Structural Pattern\07 - Adapter - Structural Pattern.csproj", "{D7A031B5-E953-4FE2-8919-E31021AE5502}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07 - Adapter - Structural Pattern", "07 - Adapter - Structural Pattern\07 - Adapter - Structural Pattern.csproj", "{D7A031B5-E953-4FE2-8919-E31021AE5502}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 - Composite - Structural Pattern", "08 - Composite - Structural Pattern\08 - Composite - Structural Pattern.csproj", "{F9264A3D-E4CF-4296-B587-EC88543FEA73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08 - Composite - Structural Pattern", "08 - Composite - Structural Pattern\08 - Composite - Structural Pattern.csproj", "{F9264A3D-E4CF-4296-B587-EC88543FEA73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

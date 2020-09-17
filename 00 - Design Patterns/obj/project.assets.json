@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Döküman\\Programlama\\Design Patterns\\with C#\\Design-Patterns\\Design Patterns\\Design Patterns\\Design Patterns.csproj",
-      "projectName": "Design Patterns",
-      "projectPath": "D:\\Döküman\\Programlama\\Design Patterns\\with C#\\Design-Patterns\\Design Patterns\\Design Patterns\\Design Patterns.csproj",
+      "projectUniqueName": "D:\\Döküman\\Programlama\\Design Patterns\\with C#\\Design-Patterns\\Design Patterns\\Design Patterns\\00 - Design Patterns.csproj",
+      "projectName": "00 - Design Patterns",
+      "projectPath": "D:\\Döküman\\Programlama\\Design Patterns\\with C#\\Design-Patterns\\Design Patterns\\Design Patterns\\00 - Design Patterns.csproj",
       "packagesPath": "C:\\Users\\abdullahsoyuoz\\.nuget\\packages\\",
       "outputPath": "D:\\Döküman\\Programlama\\Design Patterns\\with C#\\Design-Patterns\\Design Patterns\\Design Patterns\\obj\\",
       "projectStyle": "PackageReference",
