@@ -25,8 +25,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09 - Proxy - Structural Pat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10 - Decorator - Structural Pattern", "10 - Decorator - Structural Pattern\10 - Decorator - Structural Pattern.csproj", "{9F7A8E34-D816-4D1C-88DB-53804BA7B02A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11 - Bridge - Structural Pattern", "11 - Bridge - Structural Pattern\11 - Bridge - Structural Pattern.csproj", "{69B6BB50-B79B-490E-88C4-69A7E329A8BA}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,10 +75,6 @@ Global
 		{9F7A8E34-D816-4D1C-88DB-53804BA7B02A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F7A8E34-D816-4D1C-88DB-53804BA7B02A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F7A8E34-D816-4D1C-88DB-53804BA7B02A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{69B6BB50-B79B-490E-88C4-69A7E329A8BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{69B6BB50-B79B-490E-88C4-69A7E329A8BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{69B6BB50-B79B-490E-88C4-69A7E329A8BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{69B6BB50-B79B-490E-88C4-69A7E329A8BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
