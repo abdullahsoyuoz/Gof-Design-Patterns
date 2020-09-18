@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13 - Observer - Behavioral 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14 - Chain of Responsibility - Behavioral Pattern", "14 - Chain of Responsibility - Behavioral Pattern\14 - Chain of Responsibility - Behavioral Pattern.csproj", "{507FC555-6D0B-4F31-86AC-BE0DAC4EC821}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15 - Memento - Behavioral Pattern", "15 - Memento - Behavioral Pattern\15 - Memento - Behavioral Pattern.csproj", "{4D78AE92-DC67-43BA-9646-EAAFC4529E20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{507FC555-6D0B-4F31-86AC-BE0DAC4EC821}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{507FC555-6D0B-4F31-86AC-BE0DAC4EC821}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{507FC555-6D0B-4F31-86AC-BE0DAC4EC821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D78AE92-DC67-43BA-9646-EAAFC4529E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D78AE92-DC67-43BA-9646-EAAFC4529E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D78AE92-DC67-43BA-9646-EAAFC4529E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D78AE92-DC67-43BA-9646-EAAFC4529E20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
