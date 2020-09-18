@@ -25,6 +25,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09 - Proxy - Structural Pat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10 - Decorator - Structural Pattern", "10 - Decorator - Structural Pattern\10 - Decorator - Structural Pattern.csproj", "{9F7A8E34-D816-4D1C-88DB-53804BA7B02A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11 - Bridge - Behavioral Pattern", "11 - Bridge - Behavioral Pattern\11 - Bridge - Behavioral Pattern.csproj", "{B4FA4BF1-124F-4028-960B-FEACDD82852C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12 - Strategy - Behavioral Pattern", "12 - Strategy - Behavioral Pattern\12 - Strategy - Behavioral Pattern.csproj", "{C8F6646E-0FD6-42E3-8627-76DC6F2A0182}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13 - Observer - Behavioral Pattern", "13 - Observer - Behavioral Pattern\13 - Observer - Behavioral Pattern.csproj", "{B7E7CE97-9D1C-4D97-A75E-94FD38D24CE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14 - Chain of Responsibility - Behavioral Pattern", "14 - Chain of Responsibility - Behavioral Pattern\14 - Chain of Responsibility - Behavioral Pattern.csproj", "{507FC555-6D0B-4F31-86AC-BE0DAC4EC821}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +83,22 @@ Global
 		{9F7A8E34-D816-4D1C-88DB-53804BA7B02A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F7A8E34-D816-4D1C-88DB-53804BA7B02A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F7A8E34-D816-4D1C-88DB-53804BA7B02A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4FA4BF1-124F-4028-960B-FEACDD82852C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4FA4BF1-124F-4028-960B-FEACDD82852C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4FA4BF1-124F-4028-960B-FEACDD82852C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4FA4BF1-124F-4028-960B-FEACDD82852C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8F6646E-0FD6-42E3-8627-76DC6F2A0182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8F6646E-0FD6-42E3-8627-76DC6F2A0182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8F6646E-0FD6-42E3-8627-76DC6F2A0182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8F6646E-0FD6-42E3-8627-76DC6F2A0182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7E7CE97-9D1C-4D97-A75E-94FD38D24CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E7CE97-9D1C-4D97-A75E-94FD38D24CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E7CE97-9D1C-4D97-A75E-94FD38D24CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E7CE97-9D1C-4D97-A75E-94FD38D24CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{507FC555-6D0B-4F31-86AC-BE0DAC4EC821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{507FC555-6D0B-4F31-86AC-BE0DAC4EC821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{507FC555-6D0B-4F31-86AC-BE0DAC4EC821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{507FC555-6D0B-4F31-86AC-BE0DAC4EC821}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
