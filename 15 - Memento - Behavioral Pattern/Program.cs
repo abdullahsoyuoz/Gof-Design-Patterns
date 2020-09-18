@@ -6,68 +6,54 @@ namespace _15___Memento___Behavioral_Pattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Yeni bir Kitap !");
-            Model bookA = new Model("Halide Edip Adıvar","Ateşten Gömlek",253);
+            Console.WriteLine("Yeni bir Nesne !");
+            Model bookA = new Model("SampleA");
             Console.WriteLine(bookA);
 
             Taker taker = new Taker();
-            taker._yedek = bookA.Recover();
+            taker.backup = bookA.Recover();
 
             Console.WriteLine("\nManipüle Ettik.");
-            bookA._title = "Sinekli Bakkal";
-            bookA._pagenumber = 424;
-            Console.WriteLine(bookA);
+            bookA._name = "SampleB";
+           Console.WriteLine(bookA);
 
-            Console.WriteLine("\nAsıl bilgilere restore ettik !");
-            bookA.Restore(taker._yedek);
+            Console.WriteLine("\nRestore Ettik !");
+            bookA.Restore(taker.backup);
             Console.WriteLine(bookA);
         }
     }
 
     class Model
     {
-        public string _author;
-        public string _title;
-        public int _pagenumber;
+        public string _name;
         public DateTime _lastEdit;
-        public Model(string Author, string Title, int PageNumber)
+        public Model(string Name)
         {
-            this._author = Author;
-            this._title = Title;
-            this._pagenumber = PageNumber;
+            this._name = Name;
             getLastEdited();
         }
 
-        public void Restore(Yedek model)
-        {
-            this._author = model.Author;
-            this._title = model.Title;
-            this._pagenumber = model.PageNumber;
-        }
-        public Yedek Recover() => new Yedek(this._author, this._title, this._pagenumber, this._lastEdit);
+        public void Restore(Backup model) => this._name = model.Name;    // Yedek sınıfı olduğuna dikkat et !!
+        public Backup Recover() => new Backup(this._name, this._lastEdit);
         public void getLastEdited() => _lastEdit = DateTime.UtcNow;
-        public override string ToString() => "Title: "+this._title+", Author: "+this._author+", PageNumber: "+this._pagenumber+" & Last Edit Time: "+this._lastEdit;
+        public override string ToString() => "Name: "+this._name+ "     &   Last Edit Time: "+this._lastEdit;
         
     }
-    class Yedek //  Memento
+    class Backup //  Memento
     {
-        public string Author { get; set; }
-        public string Title { get; set; }
-        public int PageNumber { get; set; }
+        public string Name { get; set; }
         public DateTime _lastEdited { get; set; }
 
-        public Yedek(string Author, string Title, int PageNumber, DateTime _lastedited)
+        public Backup(string Name, DateTime _lastedited)
         {
-            this.Author = Author;
-            this.Title = Title;
-            this.PageNumber = PageNumber;
+            this.Name = Name;
             this._lastEdited = _lastedited;
         }
     }
 
     class Taker
     {
-        public Yedek _yedek { get; set; }
+        public Backup backup { get; set; }
     }
 
 }

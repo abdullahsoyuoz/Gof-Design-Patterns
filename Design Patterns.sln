@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14 - Chain of Responsibilit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15 - Memento - Behavioral Pattern", "15 - Memento - Behavioral Pattern\15 - Memento - Behavioral Pattern.csproj", "{4D78AE92-DC67-43BA-9646-EAAFC4529E20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16 - Template Method - Behavioral Pattern", "16 - Template Method - Behavioral Pattern\16 - Template Method - Behavioral Pattern.csproj", "{F6440D13-EE4D-44F3-8FDF-A89B3BB524CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17 - State - Behavioral Pattern", "17 - State - Behavioral Pattern\17 - State - Behavioral Pattern.csproj", "{2AF630F2-C45A-4003-9F57-AA69A0263AEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{4D78AE92-DC67-43BA-9646-EAAFC4529E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D78AE92-DC67-43BA-9646-EAAFC4529E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D78AE92-DC67-43BA-9646-EAAFC4529E20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6440D13-EE4D-44F3-8FDF-A89B3BB524CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6440D13-EE4D-44F3-8FDF-A89B3BB524CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6440D13-EE4D-44F3-8FDF-A89B3BB524CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6440D13-EE4D-44F3-8FDF-A89B3BB524CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF630F2-C45A-4003-9F57-AA69A0263AEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF630F2-C45A-4003-9F57-AA69A0263AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF630F2-C45A-4003-9F57-AA69A0263AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF630F2-C45A-4003-9F57-AA69A0263AEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
