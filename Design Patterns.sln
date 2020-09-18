@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16 - Template Method - Beha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17 - State - Behavioral Pattern", "17 - State - Behavioral Pattern\17 - State - Behavioral Pattern.csproj", "{2AF630F2-C45A-4003-9F57-AA69A0263AEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18 - Command - Behavioral Pattern", "18 - Command - Behavioral Pattern\18 - Command - Behavioral Pattern.csproj", "{DA69B451-0F49-4B0B-8C60-A882A52BBCAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{2AF630F2-C45A-4003-9F57-AA69A0263AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AF630F2-C45A-4003-9F57-AA69A0263AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AF630F2-C45A-4003-9F57-AA69A0263AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA69B451-0F49-4B0B-8C60-A882A52BBCAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA69B451-0F49-4B0B-8C60-A882A52BBCAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA69B451-0F49-4B0B-8C60-A882A52BBCAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA69B451-0F49-4B0B-8C60-A882A52BBCAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
