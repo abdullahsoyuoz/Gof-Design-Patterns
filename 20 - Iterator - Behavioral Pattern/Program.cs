@@ -10,30 +10,29 @@ namespace _20___Iterator___Behavioral_Pattern
         static void Main(string[] args)
         {
             TypeA a = new TypeA();
-            a.Setter(new List<SampleObject>()       // fake data
-            {
-                new SampleObject(0),
-                new SampleObject(1),
-                new SampleObject(2),
-                new SampleObject(3),
-                new SampleObject(4),
-                new SampleObject(5),
-                    
-            });
-                
-            
             TypeB b = new TypeB(5);
-            b.Setter(new List<SampleObject>()       // fake data
+
+            List<SampleObject> fakelistList = new List<SampleObject>()
             {
-                new SampleObject(0),
                 new SampleObject(1),
                 new SampleObject(2),
                 new SampleObject(3),
                 new SampleObject(4),
                 new SampleObject(5),
+            };  // FAKE DATA
 
-            });
+            SampleObject[] fakelistArray =  
+            {
+                new SampleObject(6),
+                new SampleObject(7),
+                new SampleObject(8),
+                new SampleObject(9),
+                new SampleObject(10),
+            };  // FAKE DATA
 
+            a.Setter(fakelistList);
+            b.Setter(fakelistArray);
+            
             SampleObjectIterator.GetSampleObject(a.Getter());
             SampleObjectIterator.GetSampleObject(b.Getter());
         }
@@ -65,13 +64,15 @@ namespace _20___Iterator___Behavioral_Pattern
     class TypeB
     {
         private SampleObject[] _list;
-        public TypeB(int lenght)
+        private int _lenght;
+        public TypeB(int _lenght)
         {
-            _list = new SampleObject[lenght];
+            this._lenght = _lenght;
+            _list = new SampleObject[_lenght];
             //todo
         }
         public SampleObjectIterator Getter() => new SampleObjectIterator(_list.ToList());
-        public void Setter(List<SampleObject> item) => _list = item.ToArray();
+        public void Setter(SampleObject[] item) => _list = item;
     }
 
     class SampleObjectIterator : IEnumerator  //  !!
