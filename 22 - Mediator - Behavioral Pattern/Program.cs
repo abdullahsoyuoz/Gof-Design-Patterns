@@ -9,7 +9,6 @@ namespace _22___Mediator___Behavioral_Pattern
         static void Main(string[] args)
         {
             ProviderA room = new ProviderA();
-            room.name = "patron";
 
             Subscriber John = new Subscriber("John");
             Subscriber Alice = new Subscriber("Alice");
@@ -21,10 +20,9 @@ namespace _22___Mediator___Behavioral_Pattern
             room.AddPerson(Margaret);
             room.AddPerson(Claire);
 
-            //room.Broadcast(Claire, "Merhabalar aq");
-            Claire.Broadcast("merhabalar");
-            
-        }
+            //room.Broadcast(Claire, "Merhabalar");     
+            Claire.Broadcast("merhabalar");             // alternatif
+            }
     }
 
     abstract class Person
@@ -51,6 +49,10 @@ namespace _22___Mediator___Behavioral_Pattern
         {
             Console.WriteLine(sender.nickname + " > " + this.nickname + " : " + message);
         }
+        public void Send(string message)
+        {
+            provider.Send(provider.GetModerator(), this, message);
+        }
     }
 
     class Moderator : Person
@@ -61,23 +63,12 @@ namespace _22___Mediator___Behavioral_Pattern
         {
             Console.WriteLine(sender.nickname + " > " + this.nickname + " : " + message);
         }
-        public void Broadcast(string message)
-        {
-            try
-            {
-                _provider.Broadcast(this, message);
-            }
-            catch (Exception e)
-            {
-
-                throw e;
-            }
-        }
+        public void Broadcast(string message) => provider.Broadcast(this, message);
+        public void Send(Person acceptor, string message) => provider.Send(this, acceptor, message);
     }
 
     abstract class ProviderBase
     {
-        public string name;
         protected List<Person> _listPerson;
         protected ProviderBase()
         {
@@ -93,6 +84,21 @@ namespace _22___Mediator___Behavioral_Pattern
         }
         public abstract void Broadcast(Person person, String message);
         public abstract void Send(Person sender, Person acceptor, String message);
+        public Person GetModerator()
+        {
+            foreach (var item in _listPerson)
+            {
+                if(item is Moderator)
+                {
+                    return item;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+            return null;
+        }
     }
 
     sealed class ProviderA : ProviderBase  // ProviderB etc... like rooms on chat platforms
@@ -109,7 +115,7 @@ namespace _22___Mediator___Behavioral_Pattern
 
         public override void Send(Person sender, Person acceptor, string message)
         {
-            throw new NotImplementedException();
+            acceptor.Accept(sender, message);
         }
     }
     //  sealed anahtarı, ProviderA sınıfının bir daha kalıtılamacağını ifade eder.
