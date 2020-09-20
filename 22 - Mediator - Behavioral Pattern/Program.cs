@@ -39,12 +39,12 @@ namespace _22___Mediator___Behavioral_Pattern
     abstract class Person
     {
         private string _nickname;
-        private ProviderBase _provider;         //-------------------------------------
+        private ProviderBase _provider;         
         public string nickname { get => _nickname; set => _nickname = nickname; }
-        public ProviderBase provider { get => _provider; set => _provider = provider; } //-------------------------------------
+        public ProviderBase provider { get => _provider; set => _provider = provider; } 
         protected Person(string _nickname) => this._nickname = _nickname;
         public abstract void Accept(Person person, string message);
-        public void SetProvider(ProviderBase provider)//-------------------------------------
+        public void SetProvider(ProviderBase provider)
         {
             this._provider = provider;
         }
@@ -54,7 +54,7 @@ namespace _22___Mediator___Behavioral_Pattern
 
     class Subscriber : Person
     {
-        private ProviderBase _provider;//-------------------------------------
+        private ProviderBase _provider;
         public Subscriber(string _nickname) : base(_nickname) { }   // ctor base
         public override void Accept(Person sender, string message)
         {
@@ -68,7 +68,7 @@ namespace _22___Mediator___Behavioral_Pattern
 
     class Moderator : Person
     {
-        private ProviderBase _provider;//-------------------------------------
+        private ProviderBase _provider;
         public Moderator(string _nickname) : base(_nickname) { }   // ctor base    
         public override void Accept(Person sender, string message)
         {
