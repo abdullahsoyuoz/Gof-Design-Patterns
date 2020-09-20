@@ -2,6 +2,16 @@
 
 namespace _11___Bridge___Behavioral_Pattern
 {
+    /*
+     * Turkish:
+     * Davranışsal Desendir.
+     * Algoritma, gidişata göre farklı seçeneklere sapabiliyorsa bunu bu desenle sağlarız.
+     * Buna örnek: Telefonlarımızdaki galeriden herhangi resimi paylaşmak istediğimizde
+     *      bize bunu sms, email, whatsapp vsvs yöntemler sunmaktadır. Tam olarakta bu algoritma bunu sağlar.
+     * Örneğimizdeki MessageSenderA sınıfı email seçeneği olabilir, anlaşılacağı üzere sms,whatsapp gibi
+     *      alternatifleri olabilecek MessageSenderB'ler yazabiliriz.
+     *      
+     */
     class Program
     {
         static void Main(string[] args)

@@ -4,6 +4,13 @@ using System.Threading;
 
 namespace _09___Proxy___Structural_Pattern
 {
+    /*
+     * Turkish:
+     * Yapısal Desendir.
+     * Bildiğimiz cache yapısıdır. Amacımız aynı sonucu verecek olası işlemleri cache'leyerek
+     *      bir sonraki çağırımda, işlemciye yük bindirmemektir.
+     * bkz. Cache
+     */
     class Program
     {
         static void Main(string[] args)

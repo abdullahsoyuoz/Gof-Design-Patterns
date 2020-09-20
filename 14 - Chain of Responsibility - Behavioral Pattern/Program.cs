@@ -2,10 +2,14 @@
 
 namespace _14___Chain_of_Responsibility___Behavioral_Pattern
 {
-
     /*
-     Bunun açıklamasını yapmayı unutma
-     
+     * Turkish:
+     * Davranışsal Desendir.
+     * Algoritmayı karmaşıklaştırmamak adına Handle() fonksiyonu için if kontrol bloğu ile basit bir kıyas sonucu
+     *      işlemi sonuca ulaştırdım fakat ilk görenlere karışık gelebilir, Dikkatle incelemelerini tavsiye ederim.
+     * Mevzu kısaca, yapabilite veya bir işi yapmaya rütbesi yetmesi diyelim, herhangi bir vasıftan ötürü yapabiliyorsan
+     *      yap, yapamıyorsan bir üst sınıfa pasla işidir.
+     * Elinizde güncel bir oyun var ve elinizdeki bilgisayar açamıyorsa daha iyi bir bilgisayarda aç şeklinde uyarı alıyorsunuz gibi...
      */
 
     class Program

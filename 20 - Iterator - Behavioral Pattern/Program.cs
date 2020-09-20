@@ -5,6 +5,16 @@ using System.Linq;
 
 namespace _20___Iterator___Behavioral_Pattern
 {
+    /*
+     * Turkish:
+     * Davranışsal Desendir.
+     * Aslında bir desenden ziyade idiom'dur.   BKZ. IDIOM
+     * Farklı yapılarda tutulan modelleriniz var (TypeA ve TypeB yapılarında tutulan SampleObject nesnesi).
+     * Bu verilerin, hepsinin çağırıldığını düşünelim.
+     * bu veriler farklı biçimlerde önümüze çıkabilir. Tam bu noktada böyle karmaşıklığın yaşanmaması için
+     *      bir SampleObjectIterator sınıfı yazıyor ve farklı düzende get edilen verilerin tek bir düzende get edilmesini sağlıyoruz.
+     */
+
     class Program
     {
         static void Main(string[] args)

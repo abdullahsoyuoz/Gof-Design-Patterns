@@ -3,6 +3,19 @@ using System.Collections.Generic;
 
 namespace _18___Command___Behavioral_Pattern
 {
+    /*
+     * Turkish:
+     * Davranışsal Desendir.
+     * Desenin amacı: bir iş kuyruğu var. Buradaki işler dediğimiz sınıflar, aynı çatı altında bir nesnenin türetilmeleridir.
+     * Kısaca şöyle örnek verelim. Bir muhasebecinin yapacağı işler bellidir.
+     *      Yapacağı her iş nesnesi Muhasebeci nesnesinden türetilmiş olduğunu farzedelim.
+     * bu işleri temsilen Condition sınıfları, bu kondisyonların işlerini sağlayan bir Manager sınıfımız var.
+     * Burada bu işlemleri düzene sokacak ve işleyecek bir OrderTracker sınıfımız var.
+     * Buradaki Manager'in muhasebeci olduğunu göz önünde bulundurursak, muhasebe işlerini bir doktor yapamayacağı gibi
+     *     --- dikkat edilirse condition nesnelerinin kurucu fonksiyonuna manager gönderiyoruz ---
+     *     muhasebe işlemlerine muhasebe nesnesini göndermemiz gerekiyor yani anahtar gibi davranıyor.
+     */
+
     class Program
     {
         static void Main(string[] args)

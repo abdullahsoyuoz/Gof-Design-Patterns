@@ -2,6 +2,14 @@
 
 namespace _07___Adapter___Structural_Pattern
 {
+    /*
+     * Turkish:
+     * Oluşturucu Desendir.
+     * Dışarıdan projemize entegre etmek istediğimiz sınıfların, projemize adaptasyonunu sağlayan yapıdır.
+     * Örnek üzerinde hali hazırda bir SampleA sınıfımız var ve 
+     * SampleX adında kullanmak istediğimiz bir yapıyı entegre etmek için; SampleXAdapter sınıfı yazıyoruz.
+     * SampleXAdapter kod bloğunu iyi inceleyiniz.
+     */
     class Program
     {
         static void Main(string[] args)

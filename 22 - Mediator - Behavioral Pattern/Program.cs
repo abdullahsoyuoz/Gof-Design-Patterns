@@ -4,6 +4,17 @@ using System.Linq;
 
 namespace _22___Mediator___Behavioral_Pattern
 {
+    /*
+     * Turkish:
+     * Davranışsal Desendir.
+     * Desenin amacı, kurgumuzda farklı taraflar var ve bu taraflar tek bir çatı alında faaliyet gösteriyorlar.
+     * Örneğin bir kurs, kurs içerisinde kursiyer ve öğrenciler olsun.
+     * Bu desen ile bu kurguyu kodlayabiliriz.
+     *      ++ araba pazarını hayal edelim. pazarda, arabasını satmak isteyen bir kişi var.
+     *      diyelim ki arabaya talip birden fazla kişi var ve araç sahibi yüksek fiyat verene satacak.
+     *      işte böyle bir senaryo için, provider nesnesinde satış fonksiyonu altında koşullar kodlanabilir.
+     */
+
     class Program
     {
         static void Main(string[] args)

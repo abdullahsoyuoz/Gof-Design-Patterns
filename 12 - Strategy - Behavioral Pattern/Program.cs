@@ -2,6 +2,14 @@
 
 namespace _12___Strategy___Behavioral_Pattern
 {
+    /*
+     * Turkish:
+     * Davranışsal Desendir.
+     * Bridge desenine benzetilebilir.
+     * Farklı kondisyonlara karşı, yine benzer işlemler yapılıyorsa 
+     *      bunların bir Manager sınıfı üzerinden kontrolü ve işlenmesidir.
+     */
+
     class Program
     {
         static void Main(string[] args)

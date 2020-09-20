@@ -2,6 +2,13 @@
 
 namespace _16___Template_Method___Behavioral_Pattern
 {
+    /*
+     * Turkish:
+     * Davranışsal Desendir.
+     * Algoritma farklı koşul hesaplamalarına karşı pratik bir çözüm getirmektedir.
+     *      Burada püf nokta, hesaplamalar nihayetinde benzer adımlardan geçmesi ve
+     *      buna kasten HandleBase'in bu adımları içermesi ve farklı sınıfların HandleBase'den türetilmesidir.
+     */
     class Program
     {
         static void Main(string[] args)

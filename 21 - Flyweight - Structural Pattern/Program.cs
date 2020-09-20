@@ -3,6 +3,18 @@ using System.Collections.Generic;
 
 namespace _21___Flyweight___Structural_Pattern
 {
+    /*
+     * Turkish:
+     * Yapısal Desendir.
+     * Algoritmanın uzunluğu, bilhassa Flyweight'in esas yapısı Artboard sınıfının uzunluğu korkutmasın, mantığı basit.
+     * Örneğin aklınızda 3.bakıç açısından oynanan strateji-savaş oyunu hayal edin.
+     *      koca bir ordu içerisindeki her bir askeri tek tek üretmemiz, ram belleğe yük bindireceğinden,
+     *      bu algoritma sayesinde tek bir kez üretiyoruz.
+     *      Burada iş yükünün iyi hesaplanması lazım çünkü aynı betimleme üzerinden düşünürsek
+     *      Kocaman bir ordu aslında tek bir asker olabilir ama, koca bir ordunun fonksiyonlarını tek bir asket yapması
+     *      işlemciye ağır yük bindirebilir. Bu yüzden iyi düşünülmeli ve farklı kaynaklardan araştırmalar yapabilirsiniz.
+     */
+
     class Program
     {
         static void Main(string[] args)

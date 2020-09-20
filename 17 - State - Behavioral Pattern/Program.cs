@@ -2,6 +2,13 @@
 
 namespace _17___State___Behavioral_Pattern
 {
+    /*
+     * Turkish:
+     * Davranışsal Desendir.
+     * Verilen algoritma örneği, bu deseni anlatmak için çok açıktır.
+     * Adı üzerinde nesnenin sorgulandığında pozisyonunun, durumunun belirlenmesi ve buna yönelik işlemler yapılmasıdır.
+     */
+
     class Program
     {
         static void Main(string[] args)

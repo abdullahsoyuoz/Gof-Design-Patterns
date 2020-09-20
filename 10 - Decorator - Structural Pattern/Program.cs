@@ -2,6 +2,16 @@
 
 namespace _10___Decorator___Structural_Pattern
 {
+    /*
+     * Turkish:
+     * Yapısal Desendir.
+     * İsminden anlaşılacağı gibi nesnemize özel şartlar altında dekor ediyor, farklı bir düzene uyduruyoruz.
+     * Örnekte satışı yapılacak bir ürünün standart satış işlemini ve indirim yapılacak durun için indirimli-satış işlemlerini
+     *      temsilen iki farklı sınıf yazdık. Algoritma genişletilebilir.
+     * Buradaki standart ve indirimli satış sınıfları daha da özelleştirilecerek yazılabilirler.
+     *      Bu özelleştirmeyi göstermek için temsilen kısaca indirim yüzdesini dışarıdan verdik...
+     */
+
     class Program
     {
         static void Main(string[] args)

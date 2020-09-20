@@ -4,6 +4,16 @@ using System.Collections.Generic;
 
 namespace _08___Composite___Structural_Pattern
 {
+    /*
+     * Turkish:
+     * Yapısal Desendir.
+     * Hiyerarşiyi sağlamak için kullanılır.
+     * Örnek özelinde TypeA'yı Vehicle olarak adlandırıp, TypeA'dan kalıtarak 
+     * Coupe ve Cabrio sınıflarını oluşturabilirdik (bunlar tercihe bağlı).
+     * Kısaca Coupe ve Cabrio, hali hazırda bir araçtır (alt sınıflarıdır).
+     * Burada oluşturduğumuz TypeA sınıfı araç nesnesinde tanımlı AddSub ile
+     *      cabrio ve coupe nesnelerini, araç nesnesinin alt sınıfı olduğunu bildiriyoruz. !!
+     */
     class Program
     {
         static void Main(string[] args)

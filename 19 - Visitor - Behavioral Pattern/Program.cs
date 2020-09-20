@@ -2,6 +2,16 @@
 
 namespace _19___Visitor___Behavioral_Pattern
 {
+    /*
+     * Turkish:
+     * Davranışsal desendir.
+     * Bunu anlatması biraz zor ama .d
+     * Bizim bir kontrolümüz var (ControllerA) ve bu kontrolü tasarlarken geleceği görmüşüz gibi
+     *      IVisitor parametresi alan bir Supply fonksiyonu tanımlıyoruz.
+     * Bu supply foksiyonu içerisinde, bu kontrolde bulunmayan ama geçici durumlarda işlenmesi için
+     *      bir takım işlevler kazandırıyor veya işlemler yaptırıyoruz.
+     * Benden bu kadar .d 
+     */
     class Program
     {
         static void Main(string[] args)

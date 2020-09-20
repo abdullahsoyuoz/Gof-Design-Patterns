@@ -2,6 +2,11 @@
 
 namespace _15___Memento___Behavioral_Pattern
 {
+    /*
+     * Turkish:
+     * Davranışsal Desendir.
+     * Kısaca Yedekleme ve yedeği yükleme işlemidir.
+     */
     class Program
     {
         static void Main(string[] args)
@@ -27,16 +32,10 @@ namespace _15___Memento___Behavioral_Pattern
     {
         public string _name;
         public DateTime _lastEdit;
-        public Model(string Name)
-        {
-            this._name = Name;
-            getLastEdited();
-        }
-
+        public Model(string Name) => this._name = Name;
         public void Restore(Backup model) => this._name = model.Name;    // Yedek sınıfı olduğuna dikkat et !!
-        public Backup Recover() => new Backup(this._name, this._lastEdit);
-        public void getLastEdited() => _lastEdit = DateTime.UtcNow;
-        public override string ToString() => "Name: "+this._name+ "     &   Last Edit Time: "+this._lastEdit;
+        public Backup Recover() => new Backup(this._name);
+        public override string ToString() => "Güncel isim: "+this._name;
         
     }
     class Backup //  Memento
@@ -44,10 +43,9 @@ namespace _15___Memento___Behavioral_Pattern
         public string Name { get; set; }
         public DateTime _lastEdited { get; set; }
 
-        public Backup(string Name, DateTime _lastedited)
+        public Backup(string Name)
         {
             this.Name = Name;
-            this._lastEdited = _lastedited;
         }
     }
 

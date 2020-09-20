@@ -3,19 +3,24 @@ using System.Collections.Generic;
 
 namespace _13___Observer___Behavioral_Pattern
 {
+    /*
+     * Turkish:
+     * Davanışsal Desendir.
+     * Örnekten anlaşılacağı üzerine tüm nesnelerin tek bir manager üzerinden update'i söz konusudur.
+     */
     class Program
     {
         static void Main(string[] args)
         {
-            ModelA model1 = new ModelA("Samsung");
-            ModelA model2 = new ModelA("Huawei");
+            ModelA model1 = new ModelA("Samsung Galaxy S10");
+            ModelA model2 = new ModelA("Samsung Galaxy S10 Plus");
 
             Manager manager = new Manager();
 
             manager.AddModel(model1);
             manager.AddModel(model2);
 
-            manager.Notify();
+            manager.Notify();   // Android güncelleme olsun ;)
         }
     }
 
