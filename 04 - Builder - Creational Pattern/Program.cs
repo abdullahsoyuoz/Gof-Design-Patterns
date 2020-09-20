@@ -3,7 +3,12 @@
 namespace _04___Builder___Creational_Pattern
 {
     /*
+     * Turkish:
      * Oluşturucu Desendir.
+     * Birbirinden farklı sınıflar ve bunların kombinasyonlarını düşünelim.
+     * Hali hazırda benzer adımlardan geçecek bu sınıfların, tek bir Builder nesnesi üzerinden çözüm üretmemize olanak sağlar.
+     * Farklı builder'lar yazılabilir denildiği üzere kombinasyonlarla ilintili.
+     * Algoritmanın anlaşılması, basit tutmak maksadıyla tek bir Model sınıfı tanımlanmıştır.
      */
     class Program
     {

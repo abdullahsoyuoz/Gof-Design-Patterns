@@ -2,92 +2,83 @@
 
 namespace _06___Facade___Structural_Pattern
 {
+    /*
+     * Turkish:
+     * Yapısal Desendir.
+     * Genel bir Facade sınıfı altında modellerden oluşan kombinasyonların kontrolü ve işlenmesidir.
+     * Facade'ler ve modeller çeşitlendirilebilir.
+     */
     class Program
     {
         static void Main(string[] args)
         {
-            ManagerA manager = new ManagerA();
-            manager.Process();
+            FacadeA kombinasyon1 = new FacadeA();
+            kombinasyon1.ModelAFunction();
         }
     }
 
-    class ManagerA
+    class FacadeA   // alternatif modeller ve facade'ler yazılabilir !
     {
-        private FacadeA _fac { get; set; }
-        public ManagerA()
-        {
-            this._fac = new FacadeA();
-        }
-        public void Process()
-        {
-            _fac._home.Sample();
-            _fac._phone.Sample();
-        }
-        
-    }
-
-    class FacadeA
-    {
-        public IHomePrototype _home;
-        public IPhonePrototype _phone;
+        public IModelAPrototype _modelA;
+        public IModelBPrototype _ModelB;
+        public IModelCPrototype _ModelC;
         public FacadeA()
         {
-            _home = new HomeA();
-            _phone = new PhoneA();
+            _modelA = new ModelA();
+            _ModelB = new ModelB();
+            _ModelC = new ModelC();
         }
+        public void ModelAFunction() => _modelA.Sample();
+        public void ModelBFunction() => _ModelB.Sample();
+        public void ModelCFunction() => _ModelC.Sample();
     }
 
-    class FacadeB
-    {
-        public IHomePrototype _home;
-        public ICarPrototype _car;
-        public FacadeB()
-        {
-            _home = new HomeA();    //etc HomeB
-            _car = new CarA();
-        }
-    }
-
-    interface IHomePrototype
+    interface IModelAPrototype
     {
         public void Sample();
     }
 
-    class HomeA : IHomePrototype    //etc HomeB
+    class ModelA : IModelAPrototype    //etc HomeB
     {
         //props
+        private string _name;
+        public string name { get => _name; set => _name = name; }
         public void Sample()
         {
-            Console.WriteLine("HomeA");
+            Console.WriteLine("ModelA Sample");
             //todo
         }
     }
-    interface ICarPrototype
+    interface IModelBPrototype
     {
         public void Sample();
     }
 
-    class CarA : ICarPrototype
+    class ModelB : IModelBPrototype
     {
         //props
+        private string _name;
+        public string name { get => _name; set => _name = name; }
         public void Sample()
         {
-            Console.WriteLine("CarA");
+            Console.WriteLine("ModelB Sample");
             //todo
         }
     }
 
-    interface IPhonePrototype
+    interface IModelCPrototype
     {
         public void Sample();
     }
 
-    class PhoneA : IPhonePrototype
+    class ModelC : IModelCPrototype
     {
         //props
+        private string _name;
+        public string name { get => _name; set => _name = name; }
         public void Sample()
         {
-            Console.WriteLine("PhoneA");
+            Console.WriteLine("ModelC Sample");
             //todo
         }
     }

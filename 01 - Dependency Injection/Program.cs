@@ -4,7 +4,7 @@ namespace _01___Dependency_Injection
 {
     /* Turkish:
      * Dependency Injection yapısı sınıflar arası bağlılığı azaltmaya yarayan bir tekniktir.
-     * bu yapı sayesinde daha modüler bir proje ortaya çıkmaktadır.
+     * bu yapı sayesinde daha modüler bir kodlama ortaya çıkmaktadır.
      * ilerideki pattern'lerde sık karşılaşabileceğimiz bir yapıdır.
      */
 
@@ -19,7 +19,7 @@ namespace _01___Dependency_Injection
     class SampleProvider    //Dependency Injection Model
     {
         private ISamplePrototype _sample;
-        public SampleProvider(ISamplePrototype _sample) // kurucu fonksiyona SampleB gibi benzer farklı sınıf gönderebilmek için temel alan interface'i tanımlarız
+        public SampleProvider(ISamplePrototype _sample) // *1
         {
             this._sample = _sample;
         }
@@ -28,6 +28,8 @@ namespace _01___Dependency_Injection
             //todo
         }
     }
+    //  *1 : kurucu fonksiyona SampleA gibi aynı interface'i implemente alan farklı bir SampleB gibi bir sınıf göndermek için
+    //  interface nesnesi parametre ediyoruz
 
     interface ISamplePrototype
     {
@@ -46,17 +48,15 @@ namespace _01___Dependency_Injection
         }
     }
     
-    class SampleB : ISamplePrototype
-    {
-        public SampleB()
-        {
-            Process();
-        }
-        public void Process()
-        {
-            Console.WriteLine("SampleB.Process() is running..");
-        }
-    }
-
-
+    //class SampleB : ISamplePrototype
+    //{
+    //    public SampleB()
+    //    {
+    //        Process();
+    //    }
+    //    public void Process()
+    //    {
+    //        Console.WriteLine("SampleB.Process() is running..");
+    //    }
+    //}
 }

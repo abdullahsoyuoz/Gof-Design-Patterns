@@ -3,6 +3,7 @@
 namespace _05___Prototype___Creational_Pattern
 {
     /*
+     * Turkish:
      * Oluşturucu Desendir.
      * Prototype Pattern'i nesne kopyalamadır fakat kopya nesnenin bellek adresi farklıdır.
      * bkz. MemberWiseClone

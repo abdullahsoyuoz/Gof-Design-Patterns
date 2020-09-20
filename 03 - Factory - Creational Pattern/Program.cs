@@ -5,7 +5,6 @@ namespace _03___Factory___Creational_Pattern
     /* Turkish:
      * Oluşturucu Desendir.
      * Factory Pattern'i yapılacak değişiklikleri bir Manager nesnesi üzerinden kontrol etmemizi sağlar.
-     * Birde Abstract Factory Pattern vardır. Abstract classların kalıtımlanması görülür.
      */
 
     class Program

@@ -34,5 +34,6 @@ namespace _02___Singleton___Creational_Pattern
                 return _sampleA;
             }
         }
+        //todo
     }
 }
